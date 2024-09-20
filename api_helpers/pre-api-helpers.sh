@@ -37,10 +37,4 @@ echo "Executing Pre-API Helpers"
 
 # echo
 
-# echo "Posting SNS message to configure Jira board for the account $ACCOUNT_ID..."
-# aws sns publish --topic-arn "arn:aws:sns:eu-north-1:111111111111:aft-jira-board-configuration-topic" \
-#   --message "{\"account_id\": \"$ACCOUNT_ID\"}"
-
-# echo
-
 
